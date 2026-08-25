@@ -1,0 +1,11 @@
+private/
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Original/private source documents: keep outside the Public repository.
+*.doc
+*.docx
