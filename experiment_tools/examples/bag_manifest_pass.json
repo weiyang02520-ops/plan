@@ -1,0 +1,31 @@
+{
+  "dataset_label": "SYNTHETIC / TEST ONLY",
+  "bag_id": "bag-synthetic-pass",
+  "bag_path": "synthetic/bag-pass",
+  "bag_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "scenario_id": "synthetic-normal",
+  "required_topics": [
+    "/scan",
+    "/odom",
+    "/imu/data",
+    "/gps/fix",
+    "/gps/rtk_status",
+    "/amcl_pose",
+    "/tf",
+    "/tf_static",
+    "/cmd_vel"
+  ],
+  "not_applicable_topics": [],
+  "not_applicable_declared_before_run": true,
+  "topics": [
+    {"name":"/scan","type":"sensor_msgs/msg/LaserScan","message_count":100,"start_time":0,"end_time":10,"average_frequency":10,"max_gap":0.2,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/odom","type":"nav_msgs/msg/Odometry","message_count":100,"start_time":0,"end_time":10,"average_frequency":10,"max_gap":0.2,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/imu/data","type":"sensor_msgs/msg/Imu","message_count":100,"start_time":0,"end_time":10,"average_frequency":10,"max_gap":0.2,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/gps/fix","type":"sensor_msgs/msg/NavSatFix","message_count":20,"start_time":0,"end_time":10,"average_frequency":2,"max_gap":0.6,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/gps/rtk_status","type":"diagnostic_msgs/msg/DiagnosticStatus","message_count":20,"start_time":0,"end_time":10,"average_frequency":2,"max_gap":0.6,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/amcl_pose","type":"geometry_msgs/msg/PoseWithCovarianceStamped","message_count":50,"start_time":0,"end_time":10,"average_frequency":5,"max_gap":0.3,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/tf","type":"tf2_msgs/msg/TFMessage","message_count":100,"start_time":0,"end_time":10,"average_frequency":10,"max_gap":0.2,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/tf_static","type":"tf2_msgs/msg/TFMessage","message_count":1,"start_time":0,"end_time":0,"average_frequency":0,"max_gap":0,"timestamp_valid":true,"field_check":true,"coverage_valid":true},
+    {"name":"/cmd_vel","type":"geometry_msgs/msg/Twist","message_count":30,"start_time":0,"end_time":10,"average_frequency":3,"max_gap":0.5,"timestamp_valid":true,"field_check":true,"coverage_valid":true}
+  ]
+}

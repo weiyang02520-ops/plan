@@ -1,0 +1,4 @@
+timestamp,x,y,z,dataset_label
+0.0,0.0,0.0,0.0,SYNTHETIC / TEST ONLY
+1.0,1.0,0.0,0.1,SYNTHETIC / TEST ONLY
+2.0,2.0,0.0,0.2,SYNTHETIC / TEST ONLY

@@ -1,0 +1,6 @@
+{
+  "dataset_label": "SYNTHETIC / TEST ONLY",
+  "timeout_counts_as_failure": true,
+  "manual_takeover_counts_as_failure": true,
+  "success_definition": "provisional; official definition not confirmed"
+}

@@ -1,0 +1,6 @@
+frame_id,timestamp,feature_id,x,y,valid,dataset_label
+f1,1.0,a,0.0,0.0,true,SYNTHETIC / TEST ONLY
+f1,1.0,b,1.0,0.0,true,SYNTHETIC / TEST ONLY
+f1,1.0,c,5.0,5.0,false,SYNTHETIC / TEST ONLY
+f2,1.1,a2,0.05,0.0,true,SYNTHETIC / TEST ONLY
+f2,1.1,b2,1.0,0.0,true,SYNTHETIC / TEST ONLY

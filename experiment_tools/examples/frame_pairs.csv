@@ -1,0 +1,3 @@
+frame_a,frame_b,scenario_id,dataset_label
+f1,f2,synthetic-normal,SYNTHETIC / TEST ONLY
+f1,missing-frame,synthetic-missing-frame,SYNTHETIC / TEST ONLY

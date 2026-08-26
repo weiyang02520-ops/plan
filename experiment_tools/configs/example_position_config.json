@@ -1,0 +1,8 @@
+{
+  "dataset_label": "SYNTHETIC / TEST ONLY",
+  "estimate_topic": "/amcl_pose",
+  "truth_format": "csv",
+  "frame": "map",
+  "sync_tolerance": 0.05,
+  "statistic": "all"
+}

@@ -1,0 +1,6 @@
+trial_id,scenario_id,start_time,end_time,initial_pose_status,success,success_time,position_error,yaw_error,timeout,manual_takeover,invalid,invalid_reason,bag_id,dataset_label
+t-success,normal,0,5,known-far,true,3.2,0.1,0.02,false,false,false,,bag-synthetic,SYNTHETIC / TEST ONLY
+t-failure,normal,10,15,known-far,false,,0.8,0.4,false,false,false,,bag-synthetic,SYNTHETIC / TEST ONLY
+t-timeout,timeout,20,30,known-far,false,,1.5,0.8,true,false,false,,bag-synthetic,SYNTHETIC / TEST ONLY
+t-manual,safety,40,45,known-far,false,,0.6,0.5,false,true,false,,bag-synthetic,SYNTHETIC / TEST ONLY
+t-invalid,invalid,50,51,not-recorded,false,,,,false,false,true,missing data,bag-synthetic,SYNTHETIC / TEST ONLY
